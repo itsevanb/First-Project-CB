@@ -121,13 +121,15 @@ def movie_search(movie_dict, search_query):
 import matplotlib.pyplot as plt
 
 def graph_movie(movie_dict, file_name):
-  movies = list(movie_dict.keys())
+  movies = list(movie_dict.keys()) #will keep line here for any modifications later
   ratings = list(movie_dict.values())
-  plt.bar(movies, ratings, color = 'green')
-  plt.xlabel("Movies")
-  plt.ylabel("Ratings")
+  bins = range(0, 11)
+#bins = range of values that is used to group data into discrete intervals 
+  plt.hist(ratings, bins, color = 'green')
+  plt.xlabel("Ratings")
+  plt.ylabel("Frequency")
   plt.title("Movie Ratings Visualized")
-  plt.xticks(rotation=90)
+  plt.xticks(bins) #covers 0-10 for ratings (exclusive in bins) 
   plt.tight_layout()
   plt.savefig(file_name)
   plt.show()
