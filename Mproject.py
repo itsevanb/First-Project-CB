@@ -164,7 +164,11 @@ def generate_html(movie_dict):
         index_html = file.read()
     movie_grid = ''
     for title, properties in movie_dict.items():
-        movie_grid += f'<li><strong>{title}</strong> ({properties["year"]}): {properties["rating"]}</li>'
+        if 'poster' in properties and properties['poster'] != 'N/A':
+            img_tag = f'<br><img src="{properties["poster"]}" alt="Poster of {title}" width="200">'
+        else:
+            img_tag = '<br><p>Poster not available</p>'
+        movie_grid += f'<li><strong>{title}</strong> ({properties["year"]}): {properties["rating"]}{img_tag}</li>'
 
     html_content = index_html.replace("__TEMPLATE_TITLE__", "Evan's Movie Database")
     html_content = html_content.replace("__TEMPLATE_MOVIE_GRID__", movie_grid)
@@ -180,6 +184,7 @@ def main():
             add_movie()
         elif choice == 3:
             delete_movie()
+            print(f"{Colors.YELLOW}Movie deleted successfully!{Colors.END}")
         elif choice == 4:
             movie_update()
         elif choice == 5:
