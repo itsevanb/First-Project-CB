@@ -16,7 +16,6 @@ class Colors:
     PURPLE = '\033[35m'
     END = '\033[0m'
 
-
 def menu_choice():
     print(f'\n{Colors.BLUE}Movie Menu:{Colors.END}')
     print('0. Exit the application')
@@ -50,7 +49,7 @@ def movie_list():
 
 def fetch_movie_data(title):
     api_key = 'a1c766c0'
-    url = f'http://www.omdbapi.com/?apikey={api_key}&t={title}'
+    url = f"http://www.omdbapi.com/?t={title}&apikey={api_key}&plot=full"
     try:
         response = requests.get(url)
     except requests.exceptions.RequestException as e:
@@ -62,7 +61,8 @@ def fetch_movie_data(title):
         movie_data = {'title': data['Title'],
                       'year': data['Year'],
                       'rating': data['imdbRating'],
-                      'poster': data['Poster'] 
+                      'poster': data['Poster'],
+                      'plot': data['Plot'] 
                       }
         return movie_data
     else:
@@ -73,8 +73,8 @@ def add_movie():
     title = input(f'{Colors.PURPLE}Please enter a movie title: {Colors.END}')
     movie_data = fetch_movie_data(title)
     if movie_data:
-        movie_storage.add_movie(movie_data['title'], movie_data['year'], movie_data['rating'], movie_data['poster'])
-        print(f"Movie '{movie_data['title']}' has been added.")
+        movie_storage.add_movie(movie_data['title'], movie_data['year'], movie_data['rating'], movie_data['poster'], movie_data['plot'])
+        print(f"{Colors.YELLOW}Movie '{movie_data['title']}' has been added.{Colors.END}")
         save_movies(movie_storage.list_movies())
 
 def delete_movie():
@@ -136,7 +136,6 @@ def movie_search(movie_dict, search_query):
     else:
         print(f"No movies found containing {search_query}")
 
-
 def graph_movie(movie_dict, file_name):
     ratings = [properties['rating'] for properties in movie_dict.values()]
     bins = range(0, 11)
@@ -168,11 +167,16 @@ def generate_html(movie_dict):
             img_tag = f'<br><img src="{properties["poster"]}" alt="Poster of {title}" width="200">'
         else:
             img_tag = '<br><p>Poster not available</p>'
-        movie_grid += f'<li><strong>{title}</strong> ({properties["year"]}): {properties["rating"]}{img_tag}</li>'
-
+        if 'plot' in properties and properties['plot'] != 'N/A':
+            plot = properties['plot']
+        else:
+            plot = 'Plot not available'
+        movie_grid += f'<li title="{plot}"><strong>{title}</strong> ({properties["year"]}): {properties["rating"]}{img_tag}</li>'
+    
     html_content = index_html.replace("__TEMPLATE_TITLE__", "Evan's Movie Database")
     html_content = html_content.replace("__TEMPLATE_MOVIE_GRID__", movie_grid)
     return html_content
+
     
 def main():
     welcome()

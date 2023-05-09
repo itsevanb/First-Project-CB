@@ -1,7 +1,7 @@
 body {
     background: #F5F5F0;
     color: black;
-    font-family: Monaco;
+    font-family: 'Roboto', sans-serif;
   }
   
   .list-movies-title {
@@ -18,19 +18,32 @@ body {
     margin: 0;
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   
   .movie-grid li {
     padding: 10px 15px;
     text-align: left;
+    transition: transform 0.3s ease-in-out;
   }
+
+    .movie-grid li:hover {
+        transform: scale(1.1);
+    }
   
   .movie {
     width: 140px;
   }
   
-  .movie-title,
+  .movie-title {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .movie-grid li:hover .movie-title {
+    color: #44117a;
+  }
+
   .movie-year {
     font-size: 0.8em;
     text-align: center;
@@ -49,5 +62,43 @@ body {
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       width: 128px;
       height: 193px;
+      animation: fadeIn 1s;
+    }
+
+    .movie-poster:hover {
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+    }
+ 
+  @media (max-width: 600px) {
+    .movie-grid {
+      flex-direction: column;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    pointer-events: auto;
+  }
+  
+  .tooltip:hover::before {
+    content: attr(title);
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
   }
   

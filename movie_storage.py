@@ -17,8 +17,8 @@ class MovieStorage:
         with open(self.file_path, 'w') as file:
             json.dump(self.movies, file)
 
-    def add_movie(self, title, year, rating, poster):
-        self.movies[title] = {'year': year, 'rating': rating, 'poster': poster}
+    def add_movie(self, title, year, rating, poster, plot):
+        self.movies[title] = {'year': year, 'rating': rating, 'poster': poster, 'plot': plot}
         self.save_movies()
 
     def delete_movie(self, title):

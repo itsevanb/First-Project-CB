@@ -1,57 +1,68 @@
 {
-    "The Shawshank Redemption": {
-        "rating": 9.5,
-        "year": "1994"
-    },
-    "Pulp Fiction": {
-        "rating": 8.8,
-        "year": "1994"
-    },
-    "The Room": {
-        "rating": 3.6,
-        "year": "2003"
-    },
-    "The Godfather": {
-        "rating": 9.2,
-        "year": "1972"
-    },
-    "The Godfather: Part II": {
-        "rating": 9.0,
-        "year": "1974"
-    },
-    "The Dark Knight": {
-        "rating": 9.0,
-        "year": "2008"
-    },
-    "12 Angry Men": {
-        "rating": 8.9,
-        "year": "1957"
-    },
-    "Everything Everywhere All At Once": {
-        "rating": 8.9,
-        "year": "2021"
-    },
-    "Forrest Gump": {
-        "rating": 8.8,
-        "year": "1994"
-    },
-    "Star Wars: Episode V": {
-        "rating": 8.7,
-        "year": "1980"
-    },
-    "Interstellar": {
-        "year": "2014",
-        "rating": "8.6",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
-    },
-    "American Psycho": {
-        "year": "2000",
-        "rating": "7.6",
-        "poster": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+    "WALL\u00b7E": {
+        "year": "2008",
+        "rating": "8.4",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+        "plot": "In a distant, but not so unrealistic, future where mankind has abandoned earth because it has become covered with trash from products sold by the powerful multi-national Buy N Large corporation, WALL-E, a garbage collecting robot has been left to clean up the mess. Mesmerized with trinkets of Earth's history and show tunes, WALL-E is alone on Earth except for a sprightly pet cockroach. One day, EVE, a sleek (and dangerous) reconnaissance robot, is sent to Earth to find proof that life is once again sustainable. WALL-E falls in love with EVE. WALL-E rescues EVE from a dust storm and shows her a living plant he found amongst the rubble. Consistent with her \"directive\", EVE takes the plant and automatically enters a deactivated state except for a blinking green beacon. WALL-E, doesn't understand what has happened to his new friend, but, true to his love, he protects her from wind, rain, and lightning, even as she is unresponsive. One day a massive ship comes to reclaim EVE, but WALL-E, out of love or loneliness, hitches a ride on the outside of the ship to rescue EVE. The ship arrives back at a large space cruise ship, which is carrying all of the humans who evacuated Earth 700 years earlier. The people of Earth ride around this space resort on hovering chairs which give them a constant feed of TV and video chatting. They drink all of their meals through a straw out of laziness and/or bone loss, and are all so fat that they can barely move. When the auto-pilot computer, acting on hastily-given instructions sent many centuries before, tries to prevent the people of Earth from returning by stealing the plant, WALL-E, EVE, the portly captain, and a band of broken robots stage a mutiny."
     },
     "Dune": {
         "year": "2021",
         "rating": "8.0",
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "plot": "A mythic and emotionally charged hero's journey, \"Dune\" tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive."
+    },
+    "The Batman": {
+        "year": "2022",
+        "rating": "7.8",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
+        "plot": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement."
+    },
+    "Fight Club": {
+        "year": "1999",
+        "rating": "8.8",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "plot": "A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power."
+    },
+    "Pulp Fiction": {
+        "year": "1994",
+        "rating": "8.9",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "plot": "Jules Winnfield (Samuel L. Jackson) and Vincent Vega (John Travolta) are two hit men who are out to retrieve a suitcase stolen from their employer, mob boss Marsellus Wallace (Ving Rhames). Wallace has also asked Vincent to take his wife Mia (Uma Thurman) out a few days later when Wallace himself will be out of town. Butch Coolidge (Bruce Willis) is an aging boxer who is paid by Wallace to lose his fight. The lives of these seemingly unrelated people are woven together comprising of a series of funny, bizarre and uncalled-for incidents."
+    },
+    "The Departed": {
+        "year": "2006",
+        "rating": "8.5",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg",
+        "plot": "In this crime-action tour de force, the South Boston state police force is waging war on Irish-American organized crime. Young undercover cop Billy Costigan is assigned to infiltrate the mob syndicate run by gangland chief Frank Costello. While Billy quickly gains Costello's confidence, Colin Sullivan, a hardened young criminal who has infiltrated the state police as an informer for the syndicate is rising to a position of power in the Special Investigation Unit. Each man becomes deeply consumed by their double lives, gathering information about the plans and counter-plans of the operations they have penetrated. But when it becomes clear to both the mob and the police that there is a mole in their midst, Billy and Colin are suddenly in danger of being caught and exposed to the enemy - and each must race to uncover the identity of the other man in time to save themselves. But is either willing to turn on their friends and comrades they've made during their long stints undercover?"
+    },
+    "American Psycho": {
+        "year": "2000",
+        "rating": "7.6",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "plot": "It's the late 1980s. Twenty-seven year old Wall Streeter Patrick Bateman travels among a closed network of the proverbial beautiful people, that closed network in only they able to allow others like themselves in in a feeling of superiority. Patrick has a routinized morning regimen to maintain his appearance of attractiveness and fitness. He, like those in his network, are vain, narcissistic, egomaniacal and competitive, always having to one up everyone else in that presentation of oneself, but he, unlike the others, realizes that, for himself, all of these are masks to hide what is truly underneath, someone/something inhuman in nature. In other words, he is comprised of a shell resembling a human that contains only greed and disgust, greed in wanting what others may have, and disgust for those who do not meet his expectations and for himself in not being the first or the best. That disgust ends up manifesting itself in wanting to rid the world of those people, he not seeing them as people but only of those characteristics he wants to rid."
+    },
+    "The Boondock Saints": {
+        "year": "1999",
+        "rating": "7.7",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTliMTg0ZTgtNTJiYi00MjFkLThhYTUtNDAwNTliMmVkNjVkXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "plot": "Two Irish brothers accidentally kill mafia thugs. They turn themselves in and are released as heroes. They then see it as a calling by God and start knocking off mafia gang members one by one. Willem Dafoe plays the detective trying to figure out the killings, but the closer he comes to catching the Irish brothers, the more he thinks the brothers are doing the right thing."
+    },
+    "Happy Feet": {
+        "year": "2006",
+        "rating": "6.4",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWU2NDkxYjktNWVlMS00MTM4LWJjMDAtOWYxZjJkZWFhYzAxXkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_SX300.jpg",
+        "plot": "This is the story of a little penguin named Mumble who has a terrible singing voice and later discovers he has no Heartsong. However, Mumble has an astute talent for something that none of the penguins had ever seen before: tap dancing. Though Mumble's mom, Norma Jean, thinks this little habit is cute, his dad, Memphis, says it \"just ain't penguin.\" Besides, they both know that, without a Heartsong, Mumble may never find true love. As fate would have it, his one friend, Gloria, happens to be the best singer around. Mumble and Gloria have a connection from the moment they hatch, but she struggles with his strange \"hippity- hoppity\" ways. Mumble is just too different--especially for Noah the Elder, the stern leader of Emperor Land, who ultimately casts him out of the community. Away from home for the first time, Mumble meets a posse of decidedly un-Emperor-like penguins--the Adelie Amigos. Led by Ramon, the Adelies instantly embrace Mumble's cool dance moves and invite him to party with them. In Adelie Land, Mumble seeks the counsel of Lovelace the Guru, a crazy-feathered Rockhopper penguin who will answer any of life's questions for the price of a pebble. Together with Lovelace and the Amigos, Mumble sets out across vast landscapes and, after some epic encounters, proves that by being true to yourself, you can make all the difference in the world."
+    },
+    "Good Will Hunting": {
+        "year": "1997",
+        "rating": "8.3",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "plot": "A touching tale of a wayward young man who struggles to find his identity, living in a world where he can solve any problem, except the one brewing deep within himself, until one day he meets his soul mate who opens his mind and his heart."
+    },
+    "Blade Runner 2049": {
+        "year": "2017",
+        "rating": "8.0",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+        "plot": "Thirty years after the events of Blade Runner (1982), a new Blade Runner, L.A.P.D. Officer \"K\" (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former L.A.P.D. Blade Runner, who has been missing for thirty years."
     }
 }
