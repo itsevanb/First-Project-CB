@@ -1,0 +1,57 @@
+{
+    "The Shawshank Redemption": {
+        "rating": 9.5,
+        "year": "1994"
+    },
+    "Pulp Fiction": {
+        "rating": 8.8,
+        "year": "1994"
+    },
+    "The Room": {
+        "rating": 3.6,
+        "year": "2003"
+    },
+    "The Godfather": {
+        "rating": 9.2,
+        "year": "1972"
+    },
+    "The Godfather: Part II": {
+        "rating": 9.0,
+        "year": "1974"
+    },
+    "The Dark Knight": {
+        "rating": 9.0,
+        "year": "2008"
+    },
+    "12 Angry Men": {
+        "rating": 8.9,
+        "year": "1957"
+    },
+    "Everything Everywhere All At Once": {
+        "rating": 8.9,
+        "year": "2021"
+    },
+    "Forrest Gump": {
+        "rating": 8.8,
+        "year": "1994"
+    },
+    "Star Wars: Episode V": {
+        "rating": 8.7,
+        "year": "1980"
+    },
+    "Interstellar": {
+        "year": "2014",
+        "rating": "8.6",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+    },
+    "American Psycho": {
+        "year": "2000",
+        "rating": "7.6",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+    },
+    "Dune": {
+        "year": "2021",
+        "rating": "8.0",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    }
+}
